@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="demo.TelecomDemo">
+        <methods>
+          <include name="LogOutc"/>
+          <include name="StatutAffectationService"/>
+          <include name="Login"/>
+          <include name="VersRechercheContrat"/>
+          <include name="clientComExistent"/>
+          <include name="RechercheContratAvecNumRessource"/>
+          <include name="clientComnNonExistent"/>
+          <include name="tearDownTest"/>
+          <include name="rechercheCL"/>
+          <include name="setUpSuite"/>
+          <include name="CreationContratSousClientAffecterRessource"/>
+          <include name="FactureClient"/>
+          <include name="CreationContratSousClientSelectionPlanTarifaireServices"/>
+          <include name="CreationContratSousClientDefinirLesAttributDeContartDeBase"/>
+          <include name="clientPriveExistent"/>
+          <include name="GoToRandomClient"/>
+          <include name="setUpTest"/>
+          <include name="ConfirmationCreationDuContratSousClient"/>
+          <include name="CreationContratSousClientConfigurationService"/>
+          <include name="clientPriveNonExistent"/>
+          <include name="RechercheContratAvecCodeContart"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- demo.TelecomDemo -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
