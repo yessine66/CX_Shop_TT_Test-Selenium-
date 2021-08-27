@@ -185,6 +185,10 @@ public void clientPriveExistent() throws InterruptedException {
 	/***************************/
 	@Test(priority = 5)
 	public void rechercheCL() throws InterruptedException {
+		
+		ExtentTest test = extent.createTest("Test de Recherche Client ", "---Testing recherche client t ");
+	
+		
 		//rechC.rechHome();
 		Thread.sleep(4000);
 		driver.findElement(buttonHome).click();
